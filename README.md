@@ -1,4 +1,4 @@
-# My Storefront
+# React Storefront
 
 A sleek, modern storefront application built with **React**, **React Query**, **React Router**, and the **Context API** for state management. This application fetches products from the [Fake Store API](https://fakestoreapi.com/), displays them in a responsive grid layout, and allows adding products to a shopping cart. Tests are implemented using Jest and React Testing Library.
 
@@ -20,8 +20,8 @@ A sleek, modern storefront application built with **React**, **React Query**, **
 ### Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/azterix101/my-storefront.git
-   cd my-storefront
+   git clone https://github.com/azterix101/react-storefront.git
+   cd react-storefront
    ```
    
 2. **Install Dependencies:**
@@ -56,7 +56,7 @@ Run the tests:
 ```bash
 npm run test
 ```
-This runs Jest and React Testing Library tests. Add `--coverage` for a coverage report:
+This runs Jest and React Testing Library tests and gives a coverage report:
 ```bash
 npm run coverage
 ```
@@ -70,6 +70,10 @@ The Context API was selected for cart management because the global state (cart)
 - **useState:** Used for local component state (e.g., search input or animations) due to its simplicity and directness.
 - **useContext:** Leverages the Context API to provide global data (cart state) without prop drilling.
 - **No custom hooks:** The solution avoids unnecessary complexity. Where a custom hook might be beneficial for complex logic reuse, here the logic is straightforward enough that built-in hooks and Context are sufficient.
+
+**Why Vite?**
+
+I chose Vite for its superior development experience compared to older tools like Create React App. It delivers faster development, modern integrations, and minimal setup, making it ideal for modern web applications i.e. get $@*# done faster.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
