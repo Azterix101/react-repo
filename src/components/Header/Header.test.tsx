@@ -15,3 +15,9 @@ test('renders the header with cart count', () => {
   expect(screen.getByText('My Store')).toBeInTheDocument();
   expect(screen.getByText('Cart (1)')).toBeInTheDocument();
 });
+
+test('Header renders null when CartContext is not provided', () => {
+  const { queryByText } = render(<Header />);
+  expect(queryByText('My Store')).toBeNull();
+});
+

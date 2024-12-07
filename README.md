@@ -1,4 +1,3 @@
-```markdown
 # My Storefront
 
 A sleek, modern storefront application built with **React**, **React Query**, **React Router**, and the **Context API** for state management. This application fetches products from the [Fake Store API](https://fakestoreapi.com/), displays them in a responsive grid layout, and allows adding products to a shopping cart. Tests are implemented using Jest and React Testing Library.
@@ -74,4 +73,3 @@ The Context API was selected for cart management because the global state (cart)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```

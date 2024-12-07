@@ -23,3 +23,10 @@ test('renders product card and adds to cart', async () => {
   await user.click(screen.getByRole('button', { name: /Add to Cart/i }));
   expect(mockAddToCart).toHaveBeenCalledWith(product);
 });
+
+test('ProductCard returns null if CartContext is not provided', () => {
+  const product = { id: 1, title: 'Test', price: 10, image: 'test.jpg' };
+  const { container } = render(<ProductCard product={product} />);
+  expect(container.firstChild).toBeNull();
+});
+
