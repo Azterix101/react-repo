@@ -1,0 +1,17 @@
+.container {
+  padding: var(--spacing);
+}
+
+.searchInput {
+  margin-bottom: var(--spacing);
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

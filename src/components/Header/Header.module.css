@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing);
+  background: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navLink {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}

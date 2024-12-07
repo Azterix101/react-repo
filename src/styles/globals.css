@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color: #ff5757;
+  --secondary-color: #54595f;
+  --bg-color: #f8f8f8;
+  --border-color: #dee2e6;
+  --radius: 8px;
+  --spacing: 1rem;
+  --transition: 0.3s ease;
+}

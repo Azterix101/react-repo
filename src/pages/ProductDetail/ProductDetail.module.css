@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  flex-wrap: wrap;
+  background: var(--bg-color);
+  border-radius: var(--radius);
+}
+
+.image {
+  width: 300px;
+  max-width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+}
+
+.info {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.description {
+  margin-bottom: var(--spacing);
+  line-height: 1.5;
+}
+
+.button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button:hover {
+  background: #0b5ed7;
+}
