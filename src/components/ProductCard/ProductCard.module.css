@@ -50,14 +50,16 @@
 @keyframes addedToCart {
   0% {
     transform: scale(1);
-    background: #0D6EFD;
+    background: #ff5757;
   }
   50% {
     transform: scale(1.2);
-    background: #28a745; /* Green color indicating success */
+    color: #fff;
+    background: #ff5757; /* Green color indicating success */
   }
   100% {
     transform: scale(1);
-    background: #0D6EFD;
+    color: #fff;
+    background: #ff5757;
   }
 }
